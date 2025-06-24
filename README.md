@@ -422,6 +422,10 @@ KIS Developers 서비스 가입 후 HTS ID를 변경하여 '처리계좌의 ID�
 |websocket|ws_real_multiple_stocks.py|python|
 |websocket|ws_realstkprice.py|python|
 |websocket|ws_realstkquote.py|python|
+## 4-1. Auto Trade Examples
+자동 매매 샘플은 `auto_trade` 디렉터리에 있습니다. `.env` 파일을 설정한 후 `python -m auto_trade.main` 명령으로 실행할 수 있습니다.
+`strategy` 값을 `intraday` 로 지정하면 장중 실시간 가격을 확인하며 매매를 수행합니다.
+
 
 ## 5. Wikidocs(참고 교안)
 |구분|도서명|지원언어|링크|
